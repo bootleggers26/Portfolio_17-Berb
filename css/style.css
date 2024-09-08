@@ -9,9 +9,95 @@ html {
 body {
   margin: 0;
   font-family: "Ubuntu", sans-serif;
+  background-color: #1e1e1e;
 }
 .container {
-  max-width: 1919px;
+  max-width: 1600px;
   width: 100%;
   margin: 0 auto;
+}
+/*  */
+.h2__title {
+  color: #fff;
+  font-family: "STIX Two Math";
+  font-size: 90px;
+  font-weight: 400;
+  margin: 0;
+  margin-left: 20px;
+  margin-top: 117px;
+}
+.article__flex {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  border-bottom: 2px solid #707070;
+}
+.sanitary {
+  height: 563px;
+}
+.heating {
+  height: 700px;
+}
+.solar {
+  height: 702px;
+}
+.img__article {
+  margin-left: 20px;
+  width: 353px;
+  height: 363px;
+  margin-top: 100px;
+}
+.imgSanitary {
+}
+.imgHeating {
+  margin-top: 141px;
+}
+.imgSolar {
+  margin-top: 139px;
+}
+
+.text__article {
+  margin-left: 120px;
+  margin-top: 102px;
+  margin-right: 35px;
+}
+.h4__article {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 45px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 36px;
+  margin-top: 24px;
+}
+.h4solar {
+  margin-top: 64px;
+}
+.h4heating {
+  margin-top: 61px;
+}
+.p__article {
+  color: #c6c6c7;
+  font-family: Ubuntu;
+  font-size: 34px;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 36px;
+}
+.link__flex {
+  display: flex;
+  gap: 11px;
+}
+.p__link {
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 0;
+  cursor: pointer;
+}
+.p__link:hover {
+  text-decoration-line: underline;
+  text-underline-offset: 4px;
+}
+.ico__link {
 }
