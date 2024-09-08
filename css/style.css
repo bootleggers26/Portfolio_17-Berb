@@ -101,3 +101,66 @@ body {
 }
 .ico__link {
 }
+
+@media screen and (max-width: 1400px) {
+  .text__article {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0;
+  }
+  .img__article,
+  .h4heating,
+  .h4solar,
+  .h4__article {
+    margin-top: 0;
+  }
+  .article__flex {
+    align-items: center;
+    justify-items: center;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .img__article {
+    width: 253px;
+    height: 263px;
+  }
+  .h2__title {
+    font-size: 65px;
+  }
+  .h4__article {
+    font-size: 35px;
+  }
+  .p__article {
+    font-size: 24px;
+  }
+  .p__link {
+    font-size: 20px;
+  }
+  .h2__title {
+    text-align: center;
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .article__flex {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .text__article {
+    text-align: center;
+  }
+  .img__article {
+    margin-left: 0;
+  }
+  .link__flex {
+    justify-content: center;
+  }
+  .sanitary {
+    min-height: 763px;
+  }
+  .heating {
+    min-height: 900px;
+  }
+  .solar {
+    min-height: 902px;
+  }
+}
